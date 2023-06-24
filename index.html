@@ -99,6 +99,8 @@
 
                 <div>and I am a Passionate</div>
                 <div>Web Developer</div>
+                <span id="element"></span>
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
             </div>
             <div class="rightSection">
                 <img src="bg.png" alt="">
@@ -106,5 +108,12 @@
         </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+        typeSpeed: 50,
+        });
+    </script>
 </body>
 </html>
