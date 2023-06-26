@@ -77,6 +77,12 @@
         .leftSection {
             font-size: 3rem;
             margin: 50px 0;
+
+            /* width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; */
         }
 
         .leftSection .button {
@@ -184,32 +190,36 @@
 
         /* Responsive Design */
         @media screen and (max-width: 648px) {
-            body{
 
-            }
-            .box{
+            .box {
                 flex-direction: column;
             }
-            .SecondSection .vertical{
+
+            .SecondSection .vertical {
                 height: unset;
             }
-            .vertical-tittle, .vertical-desc{
+
+            .vertical-tittle,
+            .vertical-desc {
                 left: 45px;
             }
 
-            .SecondSection .box{
+            .SecondSection .box {
                 width: 50vw;
             }
-            nav{
+
+            nav {
                 flex-direction: column;
             }
-            footer{
+
+            footer {
                 display: none;
             }
-            .firstSection{
+
+            .firstSection {
                 flex-direction: column-reverse;
             }
-          
+
         }
     </style>
 </head>
